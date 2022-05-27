@@ -1127,14 +1127,14 @@ opcion : dialog {
   
   : boxed_column {  
     label = "Opciones";
-    : radio_button {key = "opfi1" ;label = "Visualizar el c�lculo de Marcas" ;}
+    : radio_button {key = "opfi1" ;label = "Visualizar el cálculo de Marcas" ;}
     spacer_1;
     : radio_button {key = "opfi2" ;label = "No Visualizar" ;}
   }   
   : boxed_column {  
     : row {
       : text { key = "";label = "Nota.- ";edit_width = 7;}
-      : text { key = "";label = "Si se escoge la opci�n (No Visualizar), las  ";edit_width = 44;}
+      : text { key = "";label = "Si se escoge la opción (No Visualizar), las  ";edit_width = 44;}
     }
     : row {
       : text { key = "";label = "       ";edit_width = 7;}
