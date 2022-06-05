@@ -1996,6 +1996,7 @@
   )
   (setq list_fi_temp (list "6" "8" "10"  "12"  "14"  "16"  "18"  "20"  "22"  "25"  "28"  "32"))  
   (setq list_cons_temp (list "0.222" "0.395" "0.617" "0.888" "1.208" "1.578" "2.000" "2.466" "2.984" "3.853" "4.834" "6.310")) ;mf 0.222
+  (print lista_final)
   (if lista_final ; contiene calcbulo de marcas por varillla
     (progn      
       (while (setq a (nth cont lista_final)); saca todas las varillas para cada fi fi   
@@ -2005,6 +2006,7 @@
 	     (setq lista_total1 (append lista_total1 (list "VARRILLAS FI:")))
 	     (setq lista_total1 (append lista_total1 (list (nth cont lista_corte_fi))))      
 	     (setq dddxxx1 0.0)
+       (print listdim13)
 	     (PONERTEXT (polar p33 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)          
 	     (setq p4422 p33)
 	  (setq p33 (polar p33 (gra 270) (atof altdato)))
@@ -2019,10 +2021,11 @@
 	    )
 	     (setq listdim13 (list dxmarca))
 	     (setq lista_total1 nil)
-	     (setq lista_total1 (append lista_total1 (list (rtos cantidad_varillas))))
+	     (setq lista_total1 (append lista_total1 (list (rtos cantidad_varillas 2 2))));MIMI
 	     (setq varillas_total (+ varillas_total cantidad_varillas))
 	     (setq dddxxx1 (+ dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca))
-	     (PONERTEXT (polar p33 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)
+	     
+       (PONERTEXT (polar p33 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)
 	     (setq p33 (polar p33 (gra 270) (atof altdato)))                 
 	     (command "_line" p33 (polar p33 (gra 0) dddxxx) "")                       
 	    (setq listdim (list dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca)) ; 4 (MC       
@@ -2039,6 +2042,7 @@
 	     (setq lista_total1 (append lista_total1 (list "TOTAL PESO(Kg):")))
 	     (setq lista_total1 (append lista_total1 (list (rtos(* varillas_total 12 (atof constante)) 2 0))));MIMI
 	     (setq dddxxx1 (+ dxobs dxmarca))
+       
 	     (PONERTEXT (polar p4422 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)          
 	  
 	     ;(PONERTEXT (polar (polar p4422 0 (/ (atof altplan) 3.0)) (gra 270) (/ (atof alttdato) 2.0)) (atof altdato) (list dddxxx) (list (strcat "                             TOTAL VARILLAS: " (rtos varillas_total) "               TOTAL PESO(Kg): " (rtos(* varillas_total 12 (atof constante)) 2 2))) stylodato alttdato 0)   
@@ -2173,6 +2177,7 @@
       )
     )
   )
+  ;(print listte)
   (PONERTEXT p3 (distance p3 p4) (list dddxxx) (list listte) styloplan (/ (atof alttplan) 0.83333) 1) 
   
   (PONERTEXT p5 (distance p5 p6) (list dddxxx) (list "RESUMEN DE MATERIALES") styloplan (/ (atof alttplan) 0.83333) 1) 
@@ -2267,7 +2272,7 @@ alttdato 0)
 	(SETQ listte (append listte (list (calcularpeso a3 (RTOS (* (ATOF A4)(ATOF (NTH 7 A5))) 2 2))))) ; gnr feb 98
 	(setq listte (append listte (list "Observacion")))
 	(lista_corte listte)
-	(print listte)(print listdim)   ;   GNR feb 98
+	;(print listte)(print listdim)   ;   GNR feb 98
 	(PONERTEXT p33 (atof altdato) listdim listte stylodato alttdato 1) 
 	(setq p33 (polar p33 (gra 270) (atof altdato))) 
 	(setq cont (1+ cont))

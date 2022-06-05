@@ -1048,7 +1048,7 @@ presentacion : dialog {
       		}
       		: button {
         		key = "ag" ;
-        		label = "Ayudas Gráficas..." ;
+        		label = "Ayudas Graficas..." ;
       		}  	    	
       		
       		: button {
