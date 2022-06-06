@@ -1996,7 +1996,7 @@
   )
   (setq list_fi_temp (list "6" "8" "10"  "12"  "14"  "16"  "18"  "20"  "22"  "25"  "28"  "32"))  
   (setq list_cons_temp (list "0.222" "0.395" "0.617" "0.888" "1.208" "1.578" "2.000" "2.466" "2.984" "3.853" "4.834" "6.310")) ;mf 0.222
-  (print lista_final)
+  ;(print lista_final)
   (if lista_final ; contiene calcbulo de marcas por varillla
     (progn      
       (while (setq a (nth cont lista_final)); saca todas las varillas para cada fi fi   
@@ -2037,9 +2037,9 @@
 	     )
 	    (setq listdim13 (list dxobs dxmarca dxobs dxmarca))
 	   (setq lista_total1 nil)
-	     (setq lista_total1 (append lista_total1 (list "TOTAL VARILLAS:")))
+	     (setq lista_total1 (append lista_total1 (list "TOTAL VARILLAS: ")))
 	     (setq lista_total1 (append lista_total1 (list (rtos varillas_total 2 0))));MIMI
-	     (setq lista_total1 (append lista_total1 (list "TOTAL PESO(Kg):")))
+	     (setq lista_total1 (append lista_total1 (list "TOTAL PESO(Kg): ")))
 	     (setq lista_total1 (append lista_total1 (list (rtos(* varillas_total 12 (atof constante)) 2 0))));MIMI
 	     (setq dddxxx1 (+ dxobs dxmarca))
        

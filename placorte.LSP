@@ -77,15 +77,15 @@
       (setq lista_total_respaldo lista_total) 
       (setq tem "Desperdicio")
       (setq lista_total (append lista_total (list tem)))
-      (setq lista_total (append lista_total (list (rtos(car b))))) ; lista_total (marca distancia numero reiduo valor_residuo)
+      (setq lista_total (append lista_total (list (rtos(car b) 2 2)))) ; MIMI lista_total (marca distancia numero reiduo valor_residuo)
       (cond
 	((/= lista_total_anterior nil)
 	  (if (equal lista_total lista_total_anterior) ; compara si la cantidad de marcas , tipos y residuos son iguales para varillas	        
-		(setq cantidad_varillas (1+ cantidad_varillas)) ; aumenta el número de varillas	 	
+		(setq cantidad_varillas (1+ cantidad_varillas)) ; aumenta el nï¿½mero de varillas	 	
 	 	(progn
 		     (setq listdim13 (list dxmarca))
 	   	     (setq lista_total1 nil)
-           	     (setq lista_total1 (append lista_total1 (list (rtos cantidad_varillas))))
+           	     (setq lista_total1 (append lista_total1 (list (rtos cantidad_varillas 2 2))));MIMI
 		     (setq varillas_total (+ varillas_total cantidad_varillas))
 		     (setq dddxxx1 (+ dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca))
       	   	     (PONERTEXT (polar p33 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)     
@@ -94,7 +94,7 @@
 	             (PONERTEXT p33 (atof altdato) listdim12 lista_total_respaldo stylodato alttdato 1)     	  
 		     (setq listdim13 (list dxmarca))
 		     (setq lista_total1 nil)
-           	     (setq lista_total1 (append lista_total1 (list (rtos(car b)))))
+           	     (setq lista_total1 (append lista_total1 (list (rtos(car b) 2 2))));MIMI
 		     (setq dddxxx2 (+ dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero))
       	   	     (PONERTEXT (polar p33 (gra 0) dddxxx2) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)                	     
 	   	     (setq cantidad_varillas 1)
@@ -107,7 +107,7 @@
       	   	(PONERTEXT p33 (atof altdato) listdim12 lista_total_respaldo stylodato alttdato 1)
 	  	(setq listdim13 (list dxmarca))
 		(setq lista_total1 nil)
-           	(setq lista_total1 (append lista_total1 (list (rtos(car b)))))
+           	(setq lista_total1 (append lista_total1 (list (rtos(car b) 2 2))));MIMI
 		(setq dddxxx2 (+ dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero dxmarca dxmarca dxnumero))
       	   	(PONERTEXT (polar p33 (gra 0) dddxxx2) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)                	     
 	   	(setq cantidad_varillas 1)
@@ -132,8 +132,8 @@
     (t
         (setq lista_parcial (append elemento (list cantidad)))
         (setq lista_total (append lista_total (list (nth 0 lista_parcial))))        
-        (setq lista_total (append lista_total (list (rtos(nth 1 lista_parcial)))))        
-	(setq lista_total (append lista_total (list (rtos(nth 2 lista_parcial)))))
+        (setq lista_total (append lista_total (list (rtos(nth 1 lista_parcial) 2 2))));MIMI     
+	(setq lista_total (append lista_total (list (rtos(nth 2 lista_parcial) 2 2))));MIMI
         (setq listdim12(append listdim12 (list dxmarca dxmarca dxnumero)))
 	(contar_incremento lista)
      )
