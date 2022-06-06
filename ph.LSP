@@ -2003,10 +2003,10 @@
 	  (setq cont1 0)
 	  (setq listdim13 (list dxobs dxmarca))
 	   (setq lista_total1 nil)
-	     (setq lista_total1 (append lista_total1 (list "VARRILLAS FI:")))
+	     (setq lista_total1 (append lista_total1 (list "VARILLAS FI:")))
 	     (setq lista_total1 (append lista_total1 (list (nth cont lista_corte_fi))))      
 	     (setq dddxxx1 0.0)
-       (print listdim13)
+       ;(print listdim13)
 	     (PONERTEXT (polar p33 (gra 0) dddxxx1) (atof altdato) listdim13 lista_total1 stylodato alttdato 1)          
 	     (setq p4422 p33)
 	  (setq p33 (polar p33 (gra 270) (atof altdato)))
@@ -2037,9 +2037,9 @@
 	     )
 	    (setq listdim13 (list dxobs dxmarca dxobs dxmarca))
 	   (setq lista_total1 nil)
-	     (setq lista_total1 (append lista_total1 (list "TOTAL VARILLAS: ")))
+	     (setq lista_total1 (append lista_total1 (list "  TOTAL VARILLAS: ")))
 	     (setq lista_total1 (append lista_total1 (list (rtos varillas_total 2 0))));MIMI
-	     (setq lista_total1 (append lista_total1 (list "TOTAL PESO(Kg): ")))
+	     (setq lista_total1 (append lista_total1 (list "  TOTAL PESO(Kg): ")))
 	     (setq lista_total1 (append lista_total1 (list (rtos(* varillas_total 12 (atof constante)) 2 0))));MIMI
 	     (setq dddxxx1 (+ dxobs dxmarca))
        
