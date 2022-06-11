@@ -3,7 +3,7 @@ inicio : dialog {
   label = "P R O - H I E R R O    F R E E";
   : row {
 	: boxed_column {
-		label = "Paráéíóúàèñmetros";		
+		label = "Parámetros";		
   
 	      : image {
         	 key = "imagen_MODO";
@@ -45,7 +45,7 @@ inicio : dialog {
     	: boxed_column {
 	      label = "Marcas";
 	      : row {
-        	: text { key = "";label = "Cï¿½digo ";edit_width = 6;}
+        	: text { key = "";label = "Código ";edit_width = 6;}
 	        : text {
 	          key = "codigo";
         	  label = "Cod.";
@@ -124,7 +124,7 @@ inicio : dialog {
       
   : row {
     : boxed_column {
-      label = "Angulo de Rotaciï¿½n";    
+      label = "Ángulo de Rotación";    
       : row {
         : radio_button {
           key = "ang1" ;
@@ -150,7 +150,7 @@ inicio : dialog {
         }
         : edit_box {
           key = "angulo";
-          label = "Angulo:";
+          label = "Ángulo:";
         }
       }
     }
@@ -159,7 +159,7 @@ inicio : dialog {
       : row {
         : radio_button {
           key = "visualcod" ;
-          label = "Cï¿½digos" ;
+          label = "Códigos" ;
         }
         : radio_button {
           key = "visualmar" ;
@@ -189,24 +189,24 @@ inicio : dialog {
       }
       : button {
         key = "mirrort" ;
-        label = "Reflexiï¿½n" ;
+        label = "Reflexión" ;
       }
     } 
    : column {    
       : boxed_column {
         label = "Obtener Datos";        
-	: button { //botï¿½n obtener
+	: button { //botón obtener
           key = "Ob_new" ;
           label = "Dist/Angulo" ;
           Align = left;
         }
 	: button {
           key = "Ob_new1" ;
-          label = "Dist.Automï¿½tica" ;
+          label = "Dist.Automática" ;
         }
 	: button {
           key = "Ob_new2" ;
-          label = "Suma Lï¿½neas" ;
+          label = "Suma Líneas" ;
         }
         
         : button {
@@ -241,7 +241,7 @@ inicio : dialog {
         label = "Modificar";
         : button {
           key = "actualizarmarcas" ;
-          label = "  Ediciï¿½n Global.. " ;
+          label = "  Edición Global.. " ;
         }
 	: button {
           key = "editarmarca" ;
@@ -346,11 +346,11 @@ especial : dialog {
     }
     : radio_button {
       key = "aceros" ;
-      label = "Grï¿½fico Aceros" ;
+      label = "Gráfico Aceros" ;
     }
     : radio_button {
       key = "marcasyaceros" ;
-      label = "Texto Marcas y Grï¿½fico Aceros" ;
+      label = "Texto Marcas y Gráfico Aceros" ;
     }
     : button {
       key = "actualizar" ;
@@ -408,7 +408,7 @@ opciones : dialog {
     : row {
     	: button {
         key = "presentar" ;
-        label = "Parï¿½metros...     " ;
+        label = "Parámetros...     " ;
         }
     }
   }
@@ -542,7 +542,7 @@ editar : dialog {
   : column {
     : concatenation {
       : text_part {
-        label = "Nï¿½mero de Marcas : ";
+        label = "Número de Marcas : ";
       }
       : text_part {
         label = "                 ";
@@ -622,8 +622,8 @@ forma : dialog {
     : row {
       : column {
         : text     {key = ""     ;label = "     Texto      ";}
-        : text     {key = ""     ;label = "Tï¿½tulo Principal";}
-        : text     {key = ""     ;label = "Tï¿½tulos Planilla";}
+        : text     {key = ""     ;label = "Título Principal";}
+        : text     {key = ""     ;label = "Títulos Planilla";}
         : text     {key = ""     ;label = "Datos Planilla  ";}
       }
       : column {
@@ -646,7 +646,7 @@ forma : dialog {
       }
     }
     : row {
-      : edit_box {key = "numedema";label = "Nï¿½mero Filas al final ";edit_width = 8;}
+      : edit_box {key = "numedema";label = "Número Filas al final ";edit_width = 8;}
       : text {key = "" ;label = "            " ;edit_width = 12;}
       : button {key = "defay"  ;label = "Default Y";}
     }   
@@ -658,7 +658,7 @@ presentar : dialog {
   label = "PRESENTAR PLANILLA DE HIERROS";
 
   : boxed_column {
-    label = "Caracterï¿½sticas";
+    label = "Características";
     : row {
       : button {
         key = "layerplat" ;
@@ -698,7 +698,7 @@ presentar : dialog {
     }
   }
   :boxed_column{
-     label = "Especificaciones Tï¿½cnicas";
+     label = "Especificaciones Técnicas";
     : column {
       : edit_box {key = "esptec1";label = "";edit_limit=50;}
       : edit_box {key = "esptec2";label = "";edit_limit=50;}
@@ -731,7 +731,7 @@ presentar : dialog {
 
 //----------------------------------------------------------------------
 calcular : dialog {
-  label = "CALCULO PLANILLA DE HIERROS";
+  label = "CÁLCULO PLANILLA DE HIERROS";
 
   :boxed_column {
     label = "Avance";
@@ -797,7 +797,7 @@ acerca2 : dialog {
   label = "A C E R C A    D E";
   
   : text {
-    label ="Informaciï¿½n de :";
+    label ="Información de :";
   }
   
   : row {  
@@ -1049,7 +1049,7 @@ presentacion : dialog {
       		}
       		: button {
         		key = "ag" ;
-        		label = "Ayudas Graficas..." ;
+        		label = "Ayudas Gráficas..." ;
       		}  	    	
       		
       		: button {
@@ -1118,40 +1118,40 @@ falla : dialog {
     label = "Alerta";
     : text { label = "No pueden existir Marcas fijas iguales con datos diferentes." ;key = "" ;}
     : edit_box {key = "marcafalla";label = "";}
-    : text { label = "El Calculo de la Planilla de Hierros no puede continuar." ;key = "" ;}
+    : text { label = "El Cálculo de la Planilla de Hierros no puede continuar." ;key = "" ;}
   }
   ok_only;
 }
 //----------------------------------------------------------------------
 opcion : dialog {
-  label = "O P C I O N    F I N A L";
+  label = "O P C I Ó N    F I N A L";
   
   : boxed_column {  
     label = "Opciones";
-    : radio_button {key = "opfi1" ;label = "Visualizar el cÃ¡lculo de Marcas" ;}
+    : radio_button {key = "opfi1" ;label = "Visualizar el cálculo de Marcas" ;}
     spacer_1;
     : radio_button {key = "opfi2" ;label = "No Visualizar" ;}
   }   
   : boxed_column {  
     : row {
       : text { key = "";label = "Nota.- ";edit_width = 7;}
-      : text { key = "";label = "Si se escoge la opciÃ³n (No Visualizar), las  ";edit_width = 44;}
+      : text { key = "";label = "Si se escoge la opción (No Visualizar), las  ";edit_width = 44;}
     }
     : row {
       : text { key = "";label = "       ";edit_width = 7;}
-      : text { key = "";label = "marcas no se actualizarï¿½n por las calculadas.";edit_width = 44;}
+      : text { key = "";label = "marcas no se actualizarán por las calculadas.";edit_width = 44;}
     }
     : row {
       : text { key = "";label = "       ";edit_width = 7;}
-      : text { key = "";label = "Si despuï¿½s se desea que las marcas se cambiem";edit_width = 44;}
+      : text { key = "";label = "Si después se desea que las marcas se cambien";edit_width = 44;}
     }
     : row {
       : text { key = "";label = "       ";edit_width = 7;}
-      : text { key = "";label = "por las nuevas, se deberï¿½ hacer una EDICION  ";edit_width = 44;}
+      : text { key = "";label = "por las nuevas, se deberá hacer una EDICIÓN  ";edit_width = 44;}
     }
     : row {
       : text { key = "";label = "       ";edit_width = 7;}
-      : text { key = "";label = "GLOBAL,solo con la opciï¿½n (FIJA si) activada.";edit_width = 44;}
+      : text { key = "";label = "GLOBAL,solo con la opción (FIJA si) activada.";edit_width = 44;}
     }
   }
   ok_only;
