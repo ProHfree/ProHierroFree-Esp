@@ -3,7 +3,8 @@ inicio : dialog {
   label = "P R O - H I E R R O    F R E E";
   : row {
 	: boxed_column {
-		label = "Parï¿½metros";		
+		label = "Paráéíóúàèñmetros";		
+  
 	      : image {
         	 key = "imagen_MODO";
 	         height = 1;
