@@ -1581,7 +1581,7 @@
     (AVANCE "icalc1" 1)
     (setq van va)
   )
-  (set_tile "tcalc1" "Calculo completo")
+  (set_tile "tcalc1" "Cálculo completo")
 
   (setq listresul '(("6"  "0.222" "0" "0.00")("8"  "0.395" "0" "0.00")("10" "0.617" "0" "0.00")("12" "0.888" "0" "0.00")("14" "1.208" "0" "0.00")("16" "1.578" "0" "0.00")("18" "2.000" "0" "0.00")("20" "2.466" "0" "0.00")("22" "2.984" "0" "0.00")("25" "3.853" "0" "0.00")("28" "4.834" "0" "0.00")("32" "6.310" "0" "0.00"))
   ) ; mf fi 6
@@ -1614,7 +1614,7 @@
   (setq wtot (eval (mapcar 'read (cons "+" wtot))))       ; GNR
   (setq wtot (rtos wtot 2 2))                             ; GNR
 
-  (set_tile "tcalc2" "Calculo completo")
+  (set_tile "tcalc2" "Cálculo completo")
  
    (setq listplani1 (mapcar 'STL (mapcar 'LDplani listplani1)))  
   (setq listresul1 (mapcar 'STL (mapcar 'LDresul listresul)))  
@@ -4115,10 +4115,10 @@ alttdato 0)
  (CARGAR "saqueli" "placorte")  
  ;***********
  
- (if (= espt1 nil)(setq espt1 "ESPECIFICACIONES TECNICAS:"))
- (if (= espt2 nil)(setq espt2 "   HORMIGON f'c = 210 Kg/cm2"))
+ (if (= espt1 nil)(setq espt1 "ESPECIFICACIONES TÉCNICAS:"))
+ (if (= espt2 nil)(setq espt2 "   HORMIGÓN f'c = 210 Kg/cm2"))
  (if (= espt3 nil)(setq espt3 "   HIERRO fy = 4200 ;Kg/cm2 EN FORMA DE VARILLA MILIMETRADA CORRUGADA"))
- (if (= espt4 nil)(setq espt4 "   TRASLAPES MINIMOS SI NO SE INDICAN EN LOS;PLANOS = 40 DIAMETROS DE"))
+ (if (= espt4 nil)(setq espt4 "   TRASLAPES MÍNIMOS SI NO SE INDICAN EN LOS;PLANOS = 40 DIÁMETROS DE"))
  (if (= espt5 nil)(setq espt5 "   LA VARILLA"))
  
  ;***********
