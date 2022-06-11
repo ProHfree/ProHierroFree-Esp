@@ -44,7 +44,7 @@ actualizarm : dialog {
       }
       : column {
         : row {
-          : toggle {key = "actangulo"  ;label = "Angulo" ;}
+          : toggle {key = "actangulo"  ;label = "Ángulo" ;}
           : text   {key = "acttangulo" ;label = "333" ;}
         }      
         : row {
@@ -121,7 +121,7 @@ actualizarm : dialog {
 
 //----------------------------------------------------------------------
 graficos : dialog {
-  label = "A Y U D A S    G R A F I C A S";
+  label = "A Y U D A S    G R Á F I C A S";
   
   : boxed_row {
     label = "Enlaces" ;

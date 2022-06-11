@@ -60,4 +60,3 @@ setlayer : dialog {
     }
     ok_cancel_err;
 }
-
