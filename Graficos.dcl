@@ -126,9 +126,9 @@ marcas : dialog {
   : boxed_column {
     label = "Datos";
     : row { 
-      : radio_button {key = "mll1";label = "Linea";}
+      : radio_button {key = "mll1";label = "Línea";}
       : radio_button {key = "mll2";label = "Dona ";}
-      : edit_box {key = "mll3";label = "Dimension";edit_width = 6;}
+      : edit_box {key = "mll3";label = "Dimensión";edit_width = 6;}
     }
     : row { 
       : edit_box {key = "espx";label = "Incremento X";edit_width = 6;}
