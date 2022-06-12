@@ -2,9 +2,20 @@
 ## Antes de :warning: :warning:
 Si solo desea descargar e instalar **Prohierro Free-Esp** puede ver el siguiente video.
 [Cómo descargar e instalar ProHierro Fre-Español](https://www.youtube.com/ "Como descargar e instalar ProHierro Fre-Español"):inbox_tray:
-## Comenzando 🚀
+## Acerca 🚀
 
-Este Software ayuda en el dibujo de planos estructurales para la comunidad de Ingenierios Civiles.
+ProHierro Free-Esp es la versión libre y en español del programa que en su etapa comercial se llamó ***Pro-Hierro profesional***. Software diseñado para ayudar en el dibujo de planos estructurales para la comunidad de Ingenierios Civiles.
+ProHierro Free-Esp incorpora todas las funcionalidades de su versión comercial más una mejorada matriz de desperdicios. Ahora compatible con la version de AutoCad 2022.
+
+Utilizando cajas de diálogo, el usuario de una manera muy gentil puede 
+dibujar varios tipos de hierros estructurales, ya sean estos tipos I, C, O, G, o 
+L, asignándoles a estos varias características como las de diámetro de 
+varillas (Fi o Φ), la cantidad, marcas y dimensiones. Los datos anteriores se 
+emplearán para calcular y dibujar automáticamente la planilla de hierros y planilla de desperdicios.
+ProHierro Free-Esp brinda también ayudas para facilitar el dibujo de los planos 
+estructurales como por ejemplo, las plantas de cimentación, plantas de losa, 
+vigas, columnas, estribos, gradas, bloques para alivianamiento, etc
+
 _Este software es compatible con la versión 2022 de AutoCAD._
 _El idioma del programa es inglés._
 _Cuenta con 6 interfaces enumeradas a continuación._
