@@ -1,7 +1,7 @@
-# ProHierro Free
-##Antes de :tw-26a0: :tw-26a0:
+# ProHierro Free-Esp
+## Antes de :warning: :warning:
 Si solo desea descargar e instalar **Prohierro Free-Esp** puede ver el siguiente video.
-[Como descargar e instalar ProHierro Fre-Español](https://www.youtube.com/ "Como descargar e instalar ProHierro Fre-Español"):tw-1f4e5:
+[Cómo descargar e instalar ProHierro Fre-Español](https://www.youtube.com/ "Como descargar e instalar ProHierro Fre-Español"):inbox_tray:
 ## Comenzando 🚀
 
 Este Software ayuda en el dibujo de planos estructurales para la comunidad de Ingenierios Civiles.
