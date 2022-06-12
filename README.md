@@ -16,30 +16,31 @@ ProHierro Free-Esp brinda también ayudas para facilitar el dibujo de los planos
 estructurales como por ejemplo, las plantas de cimentación, plantas de losa, 
 vigas, columnas, estribos, gradas, bloques para alivianamiento, etc
 
-_Este software es compatible con la versión 2022 de AutoCAD._
-_El idioma del programa es inglés._
-_Cuenta con 6 interfaces enumeradas a continuación._
-* Bars: utilizada para el dibujo de hierros.
-* Groups Bars:sirve para agrupar hierros y etiquetarlos.
-* Graphical Assistance: contiene las diferentes opciones de dibujo como: bloques, estribos, columnas, etc.
-* Schedule: permite realizar el calculo de la planilla de hierros.
-* Edit: se puede realizar ediciones dentro de los datos de la planilla.
-* About: información del software y de la compañia en la que trabaja el desarrollador.
+_Compatible con la versión 2022 de AutoCAD._
+_Programa en español._
+_Seis interfaces enumeradas a continuación._
+* Hierros: utilizada para el dibujo de hierros.
+* Agrupar Hierros: sirve para agrupar hierros y etiquetarlos.
+* Ayudas Gráficas: contiene las diferentes opciones de dibujo como: bloques, estribos, columnas, etc.
+* Planilla: permite realizar el calculo de la planilla de hierros.
+* Editar: se puede realizar ediciones dentro de los datos de la planilla.
+* Acerca: información del software y de la compañia en la que trabaja el desarrollador.
 
 ### Pre-requisitos 📋
 
-* Instalar AutoCad (Compatible hasta la version 2022).
-* Descargarse todos los archivos de este repositario.
+* Instalar AutoCad (Compatible hasta la versión 2022).
+	* Se recomienda para un mejor funcionamiento del ProHierro Free-Esp AutoCad en idioma **ingles**.
+* Descargarse todos los archivos de este repositorio.
 
 ### Notas 📦
 
 Cambios realizados en el software para que fuera compatible con la ultima version de AutoCad.
-* Se cambió el valor por defecto de plinetype de 2 a 0, debido a que, al abrir dibujos antiguos, las polilíneas de éstos no se convierten, ya que POL crea polilíneas con formato antiguo.
-* Se intercambió el idioma de ingles por español renombrando la etiqueta number por número, para que dibujara bien la planilla.
+
+* Como en la versión de ingles liberada (misma que se encuentra en este perfil), se cambió el valor por defecto de plinetype de 2 a 0, debido a que, al abrir dibujos antiguos las polilíneas de éstos no se convierten, ya que POL crea polilíneas con formato antiguo.
 
 Tipos de archivos 
 * .dcl : Interfaz
-* .slb : Imagenes de los iconos. 
+* .slb : Imágenes de los íconos. 
 * .lsp : Contiene las funciones.
 * .bmp : Contiene la imagen de incio.
 * .dwg : Plantilla.
