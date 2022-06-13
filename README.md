@@ -46,16 +46,17 @@ Tipos de archivos
 * .dwg : Plantilla.
 
 ### Instalación 🔧
-
-* Descargar todos los archivos de este repositorio.
-* En AutoCAD abrimos un nuevo dibujo.
-* En la interfaz del nuevo dibujo, se procede a ejecutar el siguiente comando:
+Puede ver el siguiente video: [ Cómo descargar e instalar ProHierro Fre-Español](https://www.youtube.com/) ó
+1.  Descargar todos los archivos de este repositorio.
+2.  En AutoCAD abrimos un nuevo archivo de dibujo.
+3.  Ejecutar el siguiente comando:
 ```
 APPLOAD
 ```
 
-* Dirigirse a la carpeta que contiene los archivos descargados y cargar aquellos que tienen extensión .lsp
-![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/Appload.png)
+4.  Dirigirse a la carpeta que contiene los archivos descargados y cargar aquellos que tienen extensión .lsp
+
+![cargar-lsp](https://i.imgur.com/ZghI4Fo.png)
 
 
 Como se puede visualizar en la imagen.
@@ -68,25 +69,30 @@ Los archivos son:
   * OBTENER.LSP
   * ph.LSP
   * plancorte.LSP
-* Dentro de la misma interfaz,existe la opción cargar al incio, dar clic en contenido y agregar el archivo ph.lsp
-![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/appload2.png)
+  
+5.  Dentro de la misma ventana existe la opción cargar al inicio (Startup Suite), dar clic en **contenido** (Contents) y agregar el archivo ph.lsp
+
+![cargar-inicio](https://i.imgur.com/nY8ttf0.png)
+
 (Ya que este archivo contiene todas las funciones del software, y es el que arranca todos los demas archivos.)
-* Ejecutar el comando 
+
+6.  Ejecutar el comando
  ```
 CONFIG
 ```
-* Dirigirse a la pestaña archivos> Ruta de búsqueda de archivo de soporte, Como se observa en la imagen.
-![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/configuracion.png)
-* Dar clic en añadir>examinar y seleccionar la carpeta descargada, despues dar clic en aplicar>aceptar.
+7.  Dirigirse a la pestaña **files** > **Support File Search Path**, Como se observa en la imagen.
 
-* Luego en AutoCAD ejecutar el comando.
+![cargar-carpeta](https://i.imgur.com/I9Pfwto.png)
+
+8.  Dar clic en **add** > **Browse** > examinar y seleccionar la carpeta descargada, dar clic en **Apply** > **OK**.
+
+9.  Por último en AutoCAD ejecutar el comando.
  ```
 PH
 ```
-* Finalemente aparecera la interfaz de ProHierro Profesional.
+10.  Y finalmente aparecerá la interfaz de **ProHierro Free-Esp**.
 
-![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/prohierro.PNG)
-
+![PH-OK](https://i.imgur.com/XKJrbEs.png)
 
 
 ## Construido con 🛠️
@@ -100,7 +106,7 @@ PH
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/ProHfree/ProHierroFree/wiki/ProHierro-Profesional-Free)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/ProHfree/ProHierroFree-Esp/wiki/ProHierro-Free-Esp)
 
 ## Versionado 📌
 
@@ -118,6 +124,8 @@ Luego se opton por una versión por años
 
 
 ![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/ProHierroProfesional2007.PNG)
+
+>* En el 2022 se libero la versión en ingles 
 
 ## Autores ✒️
 
