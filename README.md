@@ -125,7 +125,7 @@ Luego se opton por una versión por años
 
 ![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/ProHierroProfesional2007.PNG)
 
->* En el 2022 se libero la versión en ingles
+>* En el 2022 se libero la versión en ingles **ProHierroFree**
 
 ![ph-eng](https://i.imgur.com/MxTsTyv.png)
 
