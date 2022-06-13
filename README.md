@@ -125,13 +125,15 @@ Luego se opton por una versión por años
 
 ![This is an image](https://github.com/chdavid97/Prohierro-free/blob/master/Fotos%20wiki/ProHierroProfesional2007.PNG)
 
->* En el 2022 se libero la versión en ingles 
+>* En el 2022 se libero la versión en ingles
+
+![ph-eng](https://i.imgur.com/MxTsTyv.png)
 
 ## Autores ✒️
 
 * **Ing Gustavo Navas** - *Software Privativo* 
-* **Estefanía López** - *Migracion del software privativo a libre* 
-* **David Paccha** - *Migracion del software privativo a libre* 
+* **Israel Morales** - *Migracion del software privativo a libre* 
+* **Andrés Ojeda** - *Migracion del software privativo a libre* 
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/ProHfree/ProHierroFree/wiki/ProHierro-Profesional-Free#Autores) quíenes han participado en este proyecto. 
 
