@@ -135,7 +135,7 @@ Luego se opton por una versión por años
 * **Israel Morales** - *Migracion del software privativo a libre* 
 * **Andrés Ojeda** - *Migracion del software privativo a libre* 
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/ProHfree/ProHierroFree/wiki/ProHierro-Profesional-Free#Autores) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/ProHfree/ProHierroFree-Esp/wiki/ProHierro-Free-Esp#Autores) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
