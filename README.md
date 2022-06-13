@@ -29,7 +29,7 @@ _Seis interfaces enumeradas a continuación._
 ### Pre-requisitos 📋
 
 * Instalar AutoCad (Compatible hasta la versión 2022).
-	* Se recomienda para un mejor funcionamiento del ProHierro Free-Esp AutoCad en idioma **ingles**.
+	* Se recomienda para un mejor funcionamiento del ProHierro Free-Esp **AutoCad** en idioma **ingles**.
 * Descargarse todos los archivos de este repositorio.
 
 ### Notas 📦
