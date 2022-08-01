@@ -46,7 +46,7 @@ Tipos de archivos
 * .dwg : Plantilla.
 
 ### Instalación 🔧
-Puede ver el siguiente video: [ Cómo descargar e instalar ProHierro Fre-Español](https://www.youtube.com/) ó
+Puede ver el siguiente video: [ Cómo descargar e instalar ProHierro Fre-Español](https://www.youtu.be/5CDfI0-V8JQ) ó
 1.  Descargar todos los archivos de este repositorio.
 2.  En AutoCAD abrimos un nuevo archivo de dibujo.
 3.  Ejecutar el siguiente comando:
